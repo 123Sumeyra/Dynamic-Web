@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>2 Button Example</h2>
+
+        <p id="input">HTML</p>
+        <!-- This is wrong way..
+        <button type="button" onclick="document.getElementsByClassName('demo')[0].innerHTML='CLICKED'">NEW </button>
+        <button type="button" onclick="document.getElementsByClassName('demo')[0].innerHTML='JavaScript can dynamically change HTML contents.'">OLD</button>
+        -->
+        <button type="button" onclick="document.getElementById('input').innerHTML= 'JS'"> Change </button>
+        <button type="button" onclick="document.getElementById('input').innerHTML= originalText"> Original </button>
+        
+        <script>
+            var originalText = document.getElementById('input').innerText;            
+        </script>
+    </body>
+</html>

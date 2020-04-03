@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="jsfunction.js"></script>
+
+        <p id="sum">Sum of 3 and 4</p>
+        <button type="button" onclick="document.getElementById('sum').innerHTML= sum(3,4)"> Result </button>
+        
+        <p id="sum2">Sum of array</p>
+        <button type="button" onclick="document.getElementById('sum2').innerHTML= sumofArray(numbers)"> Result </button>
+        
+
+        <p id="input1">Min of array</p>
+        <button type="button" onclick="document.getElementById('input1').innerHTML= minofArray(numbers)"> Minimum </button>
+        
+        <p id="input2">Min Index of array</p>
+        <button type="button" onclick="document.getElementById('input2').innerHTML= findMinIndex(numbers)"> Minimum Index </button>
+        
+        <p id="input3">Min Index with Starting point of array</p>
+        <button type="button" onclick="document.getElementById('input3').innerHTML= findMinIndexwithStartingPoint(numbers,0)"> Find </button>
+        
+        <p id="input4">Selection Sort of array</p>
+        <button type="button" onclick="document.getElementById('input4').innerHTML= Selectionsort(numbers)"> Sort </button>
+        
+        <script>
+            var numbers=[3,4,2,1,0];
+        </script>
+    </body>
+</html>

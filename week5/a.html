@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson1</title>
+</head>
+<body>
+    <script src="a.js" ></script>
+    <h2>Names</h2>
+    <p id="Names">Ali,Veli,Can,Ayse</p>
+      <h2>Grades</h2>
+    <p id="Grades">100,80,90,60,70</p>
+    <p id="student">Class</p>
+    <button type="button" onclick="document.getElementById('listnames').innerHTML=ConvertArrayToFormatedText(SplitNames(document.getElementById('Names').innerText,','), '<br>')">GetNames</button>
+    <button type="button" onclick="document.getElementById('listgrades').innerHTML=ConvertArrayToFormatedText(ConvertArrayToFormatedText(Array.getElementById('Grades').innerText,','), '<br>')">GetGrades </button>
+    
+    <p id ="listnames"></p>
+    <p id ="listgrades"></p>
+    
+	<script>
+        var originalText = document.getElementById('Names').innerText
+        var originalText = document.getElementById('Grades').innerText
+
+
+    </script>
+</body>
+</html>
