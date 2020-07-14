@@ -1,0 +1,178 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    min-height: 100%;
+
+
+}
+a{
+    text-decoration: none;
+    color: #c53341;
+}
+
+a:hover{
+  color: red;
+}
+nav{
+    text-align: center;
+    background-color: black;
+    padding: 10px 0px;
+    font-family: Bahnschrift;
+}
+h1{
+    font-family: "Booter - Zero Zero";
+    font-size: 30px;
+}
+ul.side li{
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+
+
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.orta-Soz{
+    margin-left: 190vh;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.Yazi {
+    text-align:left;
+    display:inline-block;
+
+    font-size: 30px;
+    font-family: "Booter - Zero Zero";
+    font-weight: bold;
+    color:red;
+
+    height: 80px;
+    width: 100px;
+    margin: 50px;
+    border-radius: 50%;
+    padding-left: 50px;
+
+}
+
+
+
+.Alt {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: right;
+
+}
+
+
+
+.ol {
+    flex-grow: 2;
+    text-align: end;
+}
+
+.ol li {
+    padding: 1px;
+    list-style: none;
+    display: inline;
+    font-size: 50px;
+    margin-left: 1px;
+}
+
+.ol img {
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+
+.section-header{
+    font-size: 35px;
+    padding-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.cart-row{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: serif;
+
+}
+.cart-item{
+
+    width: 33%;
+
+}
+.cart-price{
+    padding-left: 33%;
+}
+.cart-quantity{
+    padding-left: 34%;
+
+}
+.cart-total{
+    padding-left: 200vh;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 5px;
+
+}
+.btn-purchase{
+    background-color:palevioletred;
+    margin-left: 100vh;
+    display: block;
+    font-size: 1.5pc;
+    margin-bottom: 11px;
+    border-radius: 9pt;
+
+
+
+}
+.sum{
+    color: #000;
+    margin-left: 3vh;
+
+}
